@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Swatch.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <h1>Stopwatch</h1>
+    <div class="mcontainer">
+        <div class="container">
+            <div class="time">
+                <p class="times">
+                    <span id="minute">00</span><span class="colon">:</span><span id="second">00</span><span class="colon">:</span><span id="msecond">00</span>
+                </p>
+            </div>
+            <div class="button">
+                <button type="submit" onclick="start()" id="btn1">Start</button>
+                <button type="submit" onclick="pause()" id="btn2">Pause</button>
+                <button type="submit" onclick="reset()" id="btn3">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="Swatch.js"></script>
+</body>
+</html>
